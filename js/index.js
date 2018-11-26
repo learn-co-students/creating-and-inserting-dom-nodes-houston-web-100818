@@ -1,2 +1,4 @@
-//this file is optional
-//you can use this to paste in js code and have it run when index.html is loaded
+let element = document.createElement('div');
+document.body.append(element);
+element.style.color = 'pink';
+element.innerHTML = 'Hello, DOM!';
